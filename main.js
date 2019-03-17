@@ -70,6 +70,7 @@ function deleteItem(index) {
     }
 }
 
+// swap two items around - used for move up and down
 function swapItems(items, index1, index2) {
     const text = items[index1];
     items[index1] = items[index2];
@@ -80,6 +81,7 @@ function swapItems(items, index1, index2) {
     outputList();
 }
 
+// move an iten down
 function moveDown(index) {
     var items = getItems();
 
@@ -88,7 +90,7 @@ function moveDown(index) {
     }
 }
 
-
+// move an iten up
 function moveUp(index) {
     var items = getItems();
 
